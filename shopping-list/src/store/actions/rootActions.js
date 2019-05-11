@@ -76,7 +76,7 @@ let backendURL
 if (process.env.NODE_ENV === 'development') {
   backendURL = `http://localhost:9000`
 } else {
-  backendURL = `http://intense-ravine-49813.herokuapp.com`
+  backendURL = `https://intense-ravine-49813.herokuapp.com`
 }
 
 /*
@@ -121,7 +121,7 @@ export const checkEmail = () => {
         localStorage.removeItem('userId')
         dispatch({
           type: ERROR,
-          payload: 'Labs 12 Team - Deployed Successful'
+          payload: 'DEVELOPING BLOWS'
         })
       })
   }
