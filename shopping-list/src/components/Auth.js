@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'development') {
   process.NODE_ENV === 'production' ||
   process.NODE_ENV !== 'development'
 ) {
-  callbackURL = `https://intense-ravine-49813.herokuapp.com`
+  callbackURL = `http://intense-ravine-49813.herokuapp.com/callback`
 }
 
 class Auth {

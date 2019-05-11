@@ -76,7 +76,7 @@ let backendURL
 if (process.env.NODE_ENV === 'development') {
   backendURL = `http://localhost:9000`
 } else {
-  backendURL = `https://intense-ravine-49813.herokuapp.com`
+  backendURL = `http://intense-ravine-49813.herokuapp.com`
 }
 
 /*
