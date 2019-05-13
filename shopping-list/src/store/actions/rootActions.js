@@ -121,7 +121,7 @@ export const checkEmail = () => {
         localStorage.removeItem('userId')
         dispatch({
           type: ERROR,
-          payload: 'DEVELOPING BLOWS'
+          payload: 'OOPSIE'
         })
       })
   }
@@ -275,14 +275,14 @@ export const removeAccount = () => {
       .delete(endpoint, options)
       .then(res => {
         console.log('RES => ', res)
-        localStorage.removeItem('name')
-        localStorage.removeItem('email')
-        localStorage.removeItem('jwt')
-        localStorage.removeItem('img_url')
-        localStorage.removeItem('userId')
-        localStorage.removeItem('isLoggedIn')
-        localStorage.removeItem('lsid')
-        localStorage.removeItem('userId')
+        // localStorage.removeItem('name')
+        // localStorage.removeItem('email')
+        // localStorage.removeItem('jwt')
+        // localStorage.removeItem('img_url')
+        // localStorage.removeItem('userId')
+        // localStorage.removeItem('isLoggedIn')
+        // localStorage.removeItem('lsid')
+        // localStorage.removeItem('userId')
         dispatch({ type: REMOVE_ACCOUNT })
       })
       .catch(err => {
